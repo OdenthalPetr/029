@@ -1,0 +1,50 @@
+.row{
+    display: flex;
+    justify-content: center;  
+    }
+    
+    .box{  
+        display: flex;  
+        background-color: orange;
+        min-width: 10vh;  
+         min-height: 10vh;
+         margin: 10px;
+        justify-content: center;
+     
+    }
+     
+    #output{   
+             display: flex; 
+             justify-content: center;
+             min-width: 70vh;
+             min-height: 10vh;  
+             background-color: grey;
+             color: white;
+             font-size: 20px;
+      }
+
+      button {
+        width: 100%;
+        padding: 20px;
+        font-size: 20px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        color: #ecf0f1;
+        background-color: #282b29;
+        transition: background-color 0.3s;
+     }
+     button:hover {
+        background-color: #afb9bf;
+     }
+    
+     body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #282c34; }
+
+        
